@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		697572D42A04ECC300F81D67 /* PocketСardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697572D32A04ECC300F81D67 /* PocketСardView.swift */; };
+		697572D72A04F95600F81D67 /* CardDeckView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697572D62A04F95600F81D67 /* CardDeckView.swift */; };
+		697572E12A06894600F81D67 /* IGameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697572E02A06894600F81D67 /* IGameViewModel.swift */; };
+		697572E92A06902700F81D67 /* WarriorCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697572E82A06902700F81D67 /* WarriorCard.swift */; };
+		697572EB2A06943300F81D67 /* AttackCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697572EA2A06943300F81D67 /* AttackCard.swift */; };
+		697572F32A069D4500F81D67 /* GameViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697572F22A069D4500F81D67 /* GameViewModelTests.swift */; };
+		697C905F2A07E97600652461 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697C905E2A07E97600652461 /* Store.swift */; };
+		697C90612A07E98600652461 /* AnyObservableObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697C90602A07E98600652461 /* AnyObservableObject.swift */; };
+		697C90632A07EB5800652461 /* GameAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697C90622A07EB5800652461 /* GameAssembly.swift */; };
+		697C90672A0808E300652461 /* View+Hidden.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697C90662A0808E300652461 /* View+Hidden.swift */; };
+		69FF776E2A03876D00718CDF /* GwentGameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69FF776D2A03876D00718CDF /* GwentGameApp.swift */; };
+		69FF77702A03876D00718CDF /* GameStartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69FF776F2A03876D00718CDF /* GameStartView.swift */; };
+		69FF77722A03876E00718CDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69FF77712A03876E00718CDF /* Assets.xcassets */; };
+		69FF77762A03876E00718CDF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69FF77752A03876E00718CDF /* Preview Assets.xcassets */; };
+		69FF777D2A03893C00718CDF /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69FF777C2A03893C00718CDF /* GameViewModel.swift */; };
+		69FF777F2A038A2500718CDF /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69FF777E2A038A2500718CDF /* Card.swift */; };
+		69FF77842A038E4D00718CDF /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69FF77832A038E4D00718CDF /* GameView.swift */; };
+		69FF77862A03901E00718CDF /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69FF77852A03901E00718CDF /* CardView.swift */; };
+		69FF77902A0395DA00718CDF /* BattlefieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69FF778F2A0395DA00718CDF /* BattlefieldView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		697572F42A069D4500F81D67 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 69FF77622A03876D00718CDF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 69FF77692A03876D00718CDF;
+			remoteInfo = GwentGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		697572D32A04ECC300F81D67 /* PocketСardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PocketСardView.swift"; sourceTree = "<group>"; };
+		697572D62A04F95600F81D67 /* CardDeckView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDeckView.swift; sourceTree = "<group>"; };
+		697572E02A06894600F81D67 /* IGameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGameViewModel.swift; sourceTree = "<group>"; };
+		697572E82A06902700F81D67 /* WarriorCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarriorCard.swift; sourceTree = "<group>"; };
+		697572EA2A06943300F81D67 /* AttackCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttackCard.swift; sourceTree = "<group>"; };
+		697572F02A069D4500F81D67 /* GwentGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GwentGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		697572F22A069D4500F81D67 /* GameViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModelTests.swift; sourceTree = "<group>"; };
+		697C905E2A07E97600652461 /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		697C90602A07E98600652461 /* AnyObservableObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObservableObject.swift; sourceTree = "<group>"; };
+		697C90622A07EB5800652461 /* GameAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameAssembly.swift; sourceTree = "<group>"; };
+		697C90662A0808E300652461 /* View+Hidden.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Hidden.swift"; sourceTree = "<group>"; };
+		69FF776A2A03876D00718CDF /* GwentGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GwentGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		69FF776D2A03876D00718CDF /* GwentGameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GwentGameApp.swift; sourceTree = "<group>"; };
+		69FF776F2A03876D00718CDF /* GameStartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameStartView.swift; sourceTree = "<group>"; };
+		69FF77712A03876E00718CDF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		69FF77732A03876E00718CDF /* GwentGame.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GwentGame.entitlements; sourceTree = "<group>"; };
+		69FF77752A03876E00718CDF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		69FF777C2A03893C00718CDF /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
+		69FF777E2A038A2500718CDF /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		69FF77832A038E4D00718CDF /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		69FF77852A03901E00718CDF /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		69FF778F2A0395DA00718CDF /* BattlefieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BattlefieldView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		697572ED2A069D4500F81D67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69FF77672A03876D00718CDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		697572F12A069D4500F81D67 /* GameViewModelTests */ = {
+			isa = PBXGroup;
+			children = (
+				697572F22A069D4500F81D67 /* GameViewModelTests.swift */,
+			);
+			path = GameViewModelTests;
+			sourceTree = "<group>";
+		};
+		697C905C2A07E94200652461 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				697C905D2A07E96900652461 /* PropertyWrappers */,
+				697C90602A07E98600652461 /* AnyObservableObject.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		697C905D2A07E96900652461 /* PropertyWrappers */ = {
+			isa = PBXGroup;
+			children = (
+				697C905E2A07E97600652461 /* Store.swift */,
+			);
+			path = PropertyWrappers;
+			sourceTree = "<group>";
+		};
+		697C90642A07ED2000652461 /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				697C90622A07EB5800652461 /* GameAssembly.swift */,
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		697C90652A0808BD00652461 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				697C90662A0808E300652461 /* View+Hidden.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		69FF77612A03876D00718CDF = {
+			isa = PBXGroup;
+			children = (
+				69FF776C2A03876D00718CDF /* GwentGame */,
+				697572F12A069D4500F81D67 /* GameViewModelTests */,
+				69FF776B2A03876D00718CDF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		69FF776B2A03876D00718CDF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				69FF776A2A03876D00718CDF /* GwentGame.app */,
+				697572F02A069D4500F81D67 /* GwentGameTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		69FF776C2A03876D00718CDF /* GwentGame */ = {
+			isa = PBXGroup;
+			children = (
+				697C90642A07ED2000652461 /* Assembly */,
+				697C90652A0808BD00652461 /* Extensions */,
+				697C905C2A07E94200652461 /* Helpers */,
+				69FF77822A038E3C00718CDF /* Views */,
+				69FF77812A038AC000718CDF /* ViewModels */,
+				69FF77802A038A2C00718CDF /* Model */,
+				69FF776D2A03876D00718CDF /* GwentGameApp.swift */,
+				69FF77712A03876E00718CDF /* Assets.xcassets */,
+				69FF77732A03876E00718CDF /* GwentGame.entitlements */,
+				69FF77742A03876E00718CDF /* Preview Content */,
+			);
+			path = GwentGame;
+			sourceTree = "<group>";
+		};
+		69FF77742A03876E00718CDF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				69FF77752A03876E00718CDF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		69FF77802A038A2C00718CDF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				697572E82A06902700F81D67 /* WarriorCard.swift */,
+				697572EA2A06943300F81D67 /* AttackCard.swift */,
+				69FF777E2A038A2500718CDF /* Card.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		69FF77812A038AC000718CDF /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				69FF777C2A03893C00718CDF /* GameViewModel.swift */,
+				697572E02A06894600F81D67 /* IGameViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		69FF77822A038E3C00718CDF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				69FF776F2A03876D00718CDF /* GameStartView.swift */,
+				69FF77832A038E4D00718CDF /* GameView.swift */,
+				69FF77852A03901E00718CDF /* CardView.swift */,
+				697572D32A04ECC300F81D67 /* PocketСardView.swift */,
+				697572D62A04F95600F81D67 /* CardDeckView.swift */,
+				69FF778F2A0395DA00718CDF /* BattlefieldView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		697572EF2A069D4500F81D67 /* GwentGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 697572F62A069D4500F81D67 /* Build configuration list for PBXNativeTarget "GwentGameTests" */;
+			buildPhases = (
+				697572EC2A069D4500F81D67 /* Sources */,
+				697572ED2A069D4500F81D67 /* Frameworks */,
+				697572EE2A069D4500F81D67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				697572F52A069D4500F81D67 /* PBXTargetDependency */,
+			);
+			name = GwentGameTests;
+			productName = GwentGameTests;
+			productReference = 697572F02A069D4500F81D67 /* GwentGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		69FF77692A03876D00718CDF /* GwentGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69FF77792A03876E00718CDF /* Build configuration list for PBXNativeTarget "GwentGame" */;
+			buildPhases = (
+				69FF77662A03876D00718CDF /* Sources */,
+				69FF77672A03876D00718CDF /* Frameworks */,
+				69FF77682A03876D00718CDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GwentGame;
+			productName = GwentGame;
+			productReference = 69FF776A2A03876D00718CDF /* GwentGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		69FF77622A03876D00718CDF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					697572EF2A069D4500F81D67 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 69FF77692A03876D00718CDF;
+					};
+					69FF77692A03876D00718CDF = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 69FF77652A03876D00718CDF /* Build configuration list for PBXProject "GwentGame" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 69FF77612A03876D00718CDF;
+			productRefGroup = 69FF776B2A03876D00718CDF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				69FF77692A03876D00718CDF /* GwentGame */,
+				697572EF2A069D4500F81D67 /* GwentGameTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		697572EE2A069D4500F81D67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69FF77682A03876D00718CDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69FF77762A03876E00718CDF /* Preview Assets.xcassets in Resources */,
+				69FF77722A03876E00718CDF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		697572EC2A069D4500F81D67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				697572F32A069D4500F81D67 /* GameViewModelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69FF77662A03876D00718CDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69FF777F2A038A2500718CDF /* Card.swift in Sources */,
+				697572D72A04F95600F81D67 /* CardDeckView.swift in Sources */,
+				69FF77702A03876D00718CDF /* GameStartView.swift in Sources */,
+				697572EB2A06943300F81D67 /* AttackCard.swift in Sources */,
+				69FF77902A0395DA00718CDF /* BattlefieldView.swift in Sources */,
+				697572E92A06902700F81D67 /* WarriorCard.swift in Sources */,
+				697572E12A06894600F81D67 /* IGameViewModel.swift in Sources */,
+				69FF777D2A03893C00718CDF /* GameViewModel.swift in Sources */,
+				69FF776E2A03876D00718CDF /* GwentGameApp.swift in Sources */,
+				697C90612A07E98600652461 /* AnyObservableObject.swift in Sources */,
+				697C90632A07EB5800652461 /* GameAssembly.swift in Sources */,
+				69FF77862A03901E00718CDF /* CardView.swift in Sources */,
+				697C905F2A07E97600652461 /* Store.swift in Sources */,
+				697572D42A04ECC300F81D67 /* PocketСardView.swift in Sources */,
+				697C90672A0808E300652461 /* View+Hidden.swift in Sources */,
+				69FF77842A038E4D00718CDF /* GameView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		697572F52A069D4500F81D67 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 69FF77692A03876D00718CDF /* GwentGame */;
+			targetProxy = 697572F42A069D4500F81D67 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		697572F72A069D4500F81D67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8KA537D8MD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fff.GwentGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GwentGame.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GwentGame";
+			};
+			name = Debug;
+		};
+		697572F82A069D4500F81D67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8KA537D8MD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fff.GwentGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GwentGame.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GwentGame";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		69FF77772A03876E00718CDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		69FF77782A03876E00718CDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		69FF777A2A03876E00718CDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = GwentGame/GwentGame.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GwentGame/Preview Content\"";
+				DEVELOPMENT_TEAM = 8KA537D8MD;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fff.GwentGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		69FF777B2A03876E00718CDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = GwentGame/GwentGame.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GwentGame/Preview Content\"";
+				DEVELOPMENT_TEAM = 8KA537D8MD;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fff.GwentGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		697572F62A069D4500F81D67 /* Build configuration list for PBXNativeTarget "GwentGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				697572F72A069D4500F81D67 /* Debug */,
+				697572F82A069D4500F81D67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69FF77652A03876D00718CDF /* Build configuration list for PBXProject "GwentGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69FF77772A03876E00718CDF /* Debug */,
+				69FF77782A03876E00718CDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69FF77792A03876E00718CDF /* Build configuration list for PBXNativeTarget "GwentGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69FF777A2A03876E00718CDF /* Debug */,
+				69FF777B2A03876E00718CDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 69FF77622A03876D00718CDF /* Project object */;
+}
